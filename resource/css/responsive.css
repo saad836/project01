@@ -1,0 +1,39 @@
+   @media screen and (max-width:1240px) {
+      .hero-text-box,
+      .row {
+          width: 100%
+      }
+  }
+  
+  @media screen and (max-width:980px) {
+      h1,
+      h2 {
+          font-size: 240%
+      }
+  }
+  
+  @media screen and (max-width:768px) {
+      html {
+          font-size: 18px
+      }
+      .hero-text-box p,
+      .pg p {
+          width: 100%
+      }
+      .grid-container {
+          grid-template-columns: auto auto
+      }
+      form input[type=email] {
+          width: 100%;
+          margin-bottom: 15px
+      }
+  }
+  
+  @media screen and (max-width:480px) {
+      .grid-container {
+          grid-template-columns: auto
+      }
+      .footer ul li a {
+          margin: 15px
+      }
+  }
